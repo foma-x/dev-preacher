@@ -113,13 +113,9 @@ export const devMessages = {
 
   // --- HYBRID: Short + proof + CTA ---
   81: "Telegram bot dev — 40+ shipped. DM with your idea.",
-  82: "5 years. React, Node, Telegram. Let's build something. DM.",
-  83: "Course bot, referral bot, AI bot — built them all. Open for work. DM.",
-  84: "Full-stack + Telegram specialist. Portfolio on request. DM.",
-  85: "Fast delivery, clean code, fair price. Telegram bots + web. DM.",
-  86: "I build Telegram bots that work properly. 5 years. DM if you need one.",
-  87: "Web dev + Telegram automation. React, Node, Next. Available. DM.",
-  88: "Delivered 40+ projects. Taking new ones. Bots + websites. DM.",
-  89: "Telegram automation that actually scales. I build it. DM.",
-  90: "Got a bot idea? I'll tell you if it's worth building. Free consult. DM.",
+  82: "Course bot, referral bot, AI bot — built them all. Open for work. DM.",
+  83: "I build Telegram bots that work properly. 5 years. DM if you need one.",
+  84: "Web dev + Telegram automation. React, Node, Next. Available. DM.",
+  85: "Delivered 40+ projects. Taking new ones. Bots + websites. DM.",
+  86: "Telegram automation that actually scales. I build it. DM.",
 };
