@@ -1,121 +1,124 @@
+
 export const devMessages = {
-  // --- HOOK: Result-first (curiosity, proof) ---
-  1: "Built a referral bot that pulled 4,200 users in 8 days for a client. If you need Telegram automation or a website, I'm open. DM.",
-  2: "A client's course bot crossed 300 paid subs in the first month. I built it. React + Node + Telegram. Open for work.",
-  3: "Shipped a Telegram ad bot last week — client cut manual posting from 4hrs/day to zero. I build these. DM if you need one.",
-  4: "Just delivered an account trading platform on Telegram. Escrow, ratings, dispute system. 5 years building this stuff. Open.",
-  5: "Client asked for a quiz bot. Delivered in 3 days. 800 users played in the first week. I'm available for new projects.",
+  // HOOK: Result-first
+  1: "I am a full stack developer. Last month I delivered a hotel booking website with room management and payment integration. If you need something built, I am available.",
+  2: "I am a developer with five years of experience. I recently shipped an e-commerce store for a fashion brand. Clean, fast, and mobile friendly. Open for new projects.",
+  3: "I build websites and web applications. I just delivered a school portal with fee payments, student records, and timetables for a private academy. Currently available.",
+  4: "I am a full stack developer. I recently built a web scraper that replaced hours of manual data collection for a research client. Looking for the next project to work on.",
+  5: "I build things on the web. Recently delivered a Telegram mini app that handled payments, bookings, and user management for a client. I am open for work.",
 
-  // --- HOOK: Problem-aware (speaks to pain) ---
-  6: "Tired of posting manually in your Telegram channel? I build automation bots that handle scheduling, ads, and member management. DM.",
-  7: "Need a Telegram bot but don't know where to start? I've built 40+ — referral, AI, subscription, course sales. Let's talk.",
-  8: "Running a digital product? I build the Telegram bot + website combo — course sales, subscriptions, automated delivery. Open for work.",
-  9: "If your Telegram group management is eating your time, I can automate it. Rose-style tools, custom-built. React/Node. DM me.",
-  10: "Selling courses or digital goods? A proper Telegram bot + landing page doubles conversion. I build both. 5 years experience.",
+  // HOOK: Problem-aware
+  6: "I am a developer. If your business does not have a proper website yet, I can build one that represents you well and loads fast on any device.",
+  7: "I am a full stack developer looking for projects. If you are selling products online without a proper store, I build custom e-commerce sites you own completely.",
+  8: "I am a developer with five years of experience. If your team spends time on repetitive data tasks, I can build automation tools that handle those.",
+  9: "I build web applications. If you have a product idea that needs a developer to bring it to life, I am available and looking for serious projects.",
+  10: "I am a full stack developer. If you need a school website, hotel website, online store, or web app, I have built all of these and I am open right now.",
 
-  // --- HOOK: Social proof / credibility drop ---
-  11: "40+ Telegram bots shipped. Ad systems, AI chatbots, course sales, file delivery, subscription managers. Taking new clients. DM.",
-  12: "5 years. MERN stack. 40+ bots. Dozens of websites. E-commerce, restaurants, dashboards, blogs. If you need dev work, I'm here.",
-  13: "Clients come back for the 3rd and 4th project. That's my portfolio. React, Node, Telegram bots, full websites. Open now.",
-  14: "Last 3 projects: AI chatbot for a coaching brand, referral system for a crypto group, e-commerce site for a fashion store. Taking work.",
-  15: "My bots don't just work — they scale. Built for 500 users or 50,000. Same price bracket. Telegram + web dev. DM.",
+  // HOOK: Social proof
+  11: "I am a developer with five years of experience and dozens of delivered projects. Websites, web apps, e-commerce stores, school portals, mini apps, and scrapers. Taking new clients.",
+  12: "I have been building for clients for five years. Schools, hotels, stores, restaurants, dashboards, automation tools. If you need a developer, I am available.",
+  13: "I am a full stack developer. My clients come back for multiple projects, which I think says more than a portfolio. Currently open for new work.",
+  14: "I am a developer. My recent projects include a hotel booking platform, a skincare e-commerce store, a school management portal, and a web scraper for a research firm. Available now.",
+  15: "I have five years of experience building web applications, websites, and automation tools for real clients. I am currently open for new projects.",
 
-  // --- HOOK: Ultra short (scroll-stopper) ---
-  16: "Telegram bot dev. 5 years. Open for work. DM.",
-  17: "I build Telegram bots that make money. Courses, referrals, subscriptions, AI. Let's build.",
-  18: "Need a dev? Telegram bots + websites. React, Node, Next. Fast delivery. DM me.",
-  19: "Bot broke? Need one built? I fix and build Telegram bots. Chat me.",
-  20: "Full-stack dev. Telegram automation specialist. Available now. DM.",
+  // HOOK: Ultra short
+  16: "I am a full stack developer with five years of experience. Websites, web apps, e-commerce, mini apps, automation. Currently available.",
+  17: "I am a developer looking for projects to build. Websites, web apps, online stores, scrapers, automation tools. Open for work.",
+  18: "I build websites and web applications. React, Node, Next.js. Five years of experience. Available for new projects.",
+  19: "I am a full stack developer. I build and fix websites and web applications. Currently looking for work.",
+  20: "I am a developer with five years of experience. I am actively looking for new projects right now.",
 
-  // --- HOOK: Niche-specific (digital business) ---
-  21: "If you run a Telegram channel and you're not monetizing it with a subscription bot, you're leaving money on the table. I build those.",
-  22: "Telegram course sales without a bot is pain. I build full automated systems — payment, delivery, access control. DM if interested.",
-  23: "Account trading on Telegram is risky without the right system. I've built secure marketplace bots with escrow. Ask me how.",
-  24: "Running ads in Telegram groups manually? I built bots that rotate, schedule, and track ad performance automatically. DM.",
-  25: "Referral programs on Telegram = free growth. I build the tracking, reward, and payout logic. Worked for multiple clients.",
+  // HOOK: Niche, digital business
+  21: "I am a developer. If your business has no web presence, I build clean, fast websites that make you visible and credible to people searching for what you offer.",
+  22: "I build e-commerce websites. If you are currently selling through WhatsApp or Instagram without a proper store, I can build you one you own completely.",
+  23: "I build Telegram mini apps. If you have an audience there and want to offer them something more, payments, bookings, or subscriptions, I can build that.",
+  24: "I am a developer. If you need data pulled from websites regularly, I build scrapers that do it automatically and deliver it however you need.",
+  25: "I build automation tools. If your team handles the same digital tasks repeatedly, I can build a system that takes that off your plate.",
 
-  // --- HOOK: Niche-specific (tech/dev groups) ---
-  26: "Anyone need a Telegram bot or web app built? Full-stack, 5 years. React, Node, Next, Firebase, Supabase. DM for rate.",
-  27: "Open for freelance. Telegram bots and websites. Fast, clean code, real communication. DM if you have a project.",
-  28: "Looking for dev collaboration or client referrals. I build Telegram automation + full websites. Commission for referrals. DM.",
-  29: "If anyone has overflow client work in web dev or Telegram bots, I'm available as a sub. 5 years, full-stack. Chat me.",
-  30: "React + Node + Telegram Bot API. Available for projects big or small. DM with your idea.",
+  // HOOK: Schools
+  26: "I am a developer. I build web portals for schools, fee payment systems, result checkers, timetables, and announcement boards. Available for new projects.",
+  27: "I build school websites and student portals. If your institution's web presence is outdated or missing, I can fix that.",
+  28: "I am a full stack developer. I have built complete web solutions for private schools and academies. Currently open for new institutional projects.",
+  29: "I build for educational institutions. School websites, student portals, fee management systems. Five years of development experience behind me.",
+  30: "I am a developer looking for school or institution projects. Websites, portals, management systems. I have delivered these before and I am available.",
 
-  // --- HOOK: Story-style (human, relatable) ---
-  31: "A client once told me his Telegram channel was 'just too small to automate.' 6 months later, 12k members, bot running daily. I built it.",
-  32: "Started with simple bots. Now I build full Telegram ecosystems — subscriptions, AI, referrals, payments. 5 years in. DM.",
-  33: "Most Telegram bots I get hired to fix were built cheap and broke fast. I build them properly the first time. Ask around.",
-  34: "I turned a client's manual course delivery (WhatsApp DMs 😭) into a fully automated Telegram bot. Night and day. I build these.",
-  35: "People always underestimate what a good Telegram bot can do for their business. I love proving them wrong. DM me.",
+  // HOOK: Hotels and hospitality
+  31: "I am a developer. I build hotel websites with room listings, availability calendars, booking forms, and payment integration. Currently open for hospitality projects.",
+  32: "I build booking websites for hotels, shortlets, and guesthouses. Clean, fast, and mobile friendly. I am available for new projects.",
+  33: "I am a full stack developer. If your hotel or guesthouse website is outdated or losing you bookings, I build and rebuild these. Open for work.",
+  34: "I have delivered hotel and hospitality websites with full booking systems. I am a developer looking for the next project in this space.",
+  35: "I build hospitality websites. Room management, availability, bookings, payments. If you run a hotel or shortlet and need a proper site, I am available.",
 
-  // --- HOOK: Offer-first (what you get) ---
-  36: "You get: fast Telegram bot or website, clean code, real support after delivery. 5 years experience. DM to discuss your project.",
-  37: "Project scoping is free. Tell me what you need — bot or site — and I'll tell you what's possible and what it costs. DM.",
-  38: "I build, test, and deploy. No halfway work. Telegram bots and websites. React, Node, Next. DM with your budget.",
-  39: "Fixed price or hourly — your choice. Telegram bots and web dev. Full-stack, 5 years. Let's talk scope. DM.",
-  40: "Fast turnaround, clean code, full handover. That's how I work. Telegram bots + websites. Open for new clients.",
+  // HOOK: E-commerce
+  36: "I am a developer. I build e-commerce websites with product pages, cart, checkout, payment integration, and order management. You own it with no platform fees.",
+  37: "I build online stores for fashion brands, skincare businesses, food vendors, and digital product sellers. Currently open for e-commerce projects.",
+  38: "I am a full stack developer. If you want a store that looks and works like your actual brand rather than a generic template, I build those.",
+  39: "I build e-commerce sites that load fast and make buying simple. Product catalog, filters, cart, payments, order tracking, admin dashboard. Available now.",
+  40: "I am a developer with five years of experience building online stores. If you need one, I am open for new e-commerce projects.",
 
-  // --- HOOK: Question-led (engagement trigger) ---
-  41: "Planning to build a Telegram bot? I can tell you in 5 minutes if your idea is viable and what it'll take. Just DM.",
-  42: "What's stopping you from automating your Telegram channel? I've solved most of those problems before. Let's talk.",
-  43: "Need a bot built but got burned by a bad dev before? I get that a lot. Let's talk about what went wrong. DM.",
-  44: "Got a Telegram project idea but not sure if it's buildable? I'll give you an honest answer. No sales pressure. DM.",
-  45: "How much time are you wasting on manual tasks in your Telegram channel? I probably have a bot for that.",
+  // HOOK: Scraping and automation
+  41: "I am a developer. I build web scrapers that pull data from websites automatically on a schedule and deliver it however you need it.",
+  42: "I build scraping tools for price monitoring, lead generation, competitor tracking, and research. If you need structured data from the web, I can help.",
+  43: "I am a developer. I build automation tools that replace repetitive manual work. If your team does the same digital tasks over and over, let us talk.",
+  44: "I build web scrapers and data pipelines for small teams and businesses. Simple to use, reliable, and built for your specific needs.",
+  45: "I am a developer looking for scraping and automation projects. I have built these for research firms, e-commerce businesses, and marketing teams.",
 
-  // --- HOOK: Competitor contrast ---
-  46: "Most bot devs disappear after delivery. I stay available. Bugs, updates, questions — I'm there. 5 years, dozens of clients.",
-  47: "I don't use templates and call it done. Every bot I build is custom to your workflow. Telegram automation + web. DM.",
-  48: "Cheap bots cost more in the long run. I build them right — scalable, documented, maintainable. React, Node. DM.",
-  49: "I speak English and I explain what I'm building while I build it. No ghost devs. Telegram bots + websites. Chat me.",
-  50: "You'll know exactly what's being built and why. Transparent process, clean delivery. Telegram + full-stack dev. DM.",
+  // HOOK: Mini apps
+  46: "I build Telegram mini apps. If you have an audience on Telegram and want to offer payments, bookings, or tools without leaving the app, I build that full stack.",
+  47: "I am a developer. I build Telegram mini apps with full backends, user accounts, payment integration, and admin dashboards.",
+  48: "I have delivered several Telegram mini apps for businesses that wanted to serve their audience directly inside the platform. Currently open for new ones.",
+  49: "I am a full stack developer. If you want a mini app that handles real business logic inside Telegram, I build those from design to deployment.",
+  50: "I build Telegram mini apps. If you have been thinking about one and need a developer to build it properly, I am available.",
 
-  // --- HOOK: Urgency / scarcity (soft) ---
-  51: "Taking 2 new clients this month. Telegram bots or websites. React, Node, Next. DM if you have something ready.",
-  52: "Bandwidth opened up. Looking for 1-2 serious projects — bots or web. Budget doesn't need to be huge. DM me.",
-  53: "Got a slot free. Telegram bot or website. Serious inquiries only. DM with your idea and timeline.",
-  54: "Wrapping up two projects. Will be fully available in a week. Telegram automation or web dev. DM now to get in queue.",
-  55: "Available for immediate start. Telegram bots, websites, dashboards. React, Node, Next. DM.",
+  // HOOK: Web apps
+  51: "I am a full stack developer. I build web applications with user accounts, payments, dashboards, notifications, and whatever your product needs.",
+  52: "I build web apps. Marketplaces, booking platforms, client portals, internal tools, SaaS products. Five years of experience. Currently open.",
+  53: "I am a developer. If you have an idea for a web application and need someone to build a working version of it, I am available for that.",
+  54: "I build custom dashboards, admin panels, and internal tools for businesses that need something beyond a standard website.",
+  55: "I am a full stack developer with five years of experience. React, Node, Next.js, Supabase, Firebase. Available for web app projects right now.",
 
-  // --- HOOK: Specific tech callout ---
-  56: "Building on Supabase + Next.js? I've shipped 10+ projects on that stack. Telegram bots too. Open for work. DM.",
-  57: "Firebase + React + Telegram Bot API is my bread and butter. If that's your stack, let's work. DM.",
-  58: "Next.js for the site, Node for the bot backend, Telegram for distribution. I build that full package. DM.",
-  59: "MERN stack developer. Also Telegram bot API, Next, Tailwind, Firebase, Supabase. 5 years. Open. DM.",
-  60: "I work in the stack you already use. React, Vue, Node, Next, Firebase, Supabase — comfortable with all. DM.",
+  // HOOK: Tech callout
+  56: "I am a developer with five years of experience. My primary stack is React, Node.js, Next.js, Supabase, and Firebase. Available for new projects.",
+  57: "I build with React on the frontend, Node on the backend, and Postgres or Firebase for data. Comfortable with Paystack and Stripe for payments.",
+  58: "I am a full stack developer. Next.js for websites, Node for APIs, Supabase or Firebase for the database. I build that complete package.",
+  59: "I work in React, Vue, Node, Next.js, Tailwind, Firebase, and Supabase. Five years of experience. Open for projects.",
+  60: "I am a developer. I work in the stack that fits your project rather than pushing one approach for everything.",
 
-  // --- HOOK: Industry vertical (restaurant/ecomm/courses) ---
-  61: "Restaurant owners — I build ordering systems and websites that actually work on mobile. No monthly fees after delivery. DM.",
-  62: "Course creators — I build Telegram bots that sell, deliver, and manage access to your content automatically. DM.",
-  63: "E-commerce store needs a custom dashboard or automation? I've built several. React + Node. DM with details.",
-  64: "Digital product sellers — Telegram bot for instant delivery + a clean landing page. I build the full package. DM.",
-  65: "Crypto/NFT communities — referral bots, member tracking, ad automation. Built plenty of these. DM.",
+  // HOOK: Competitor contrast
+  61: "I am a developer who stays available after delivery. If something needs fixing or updating, I am still there. That is how I have kept clients for five years.",
+  62: "I build custom. Every website or web app I deliver is built for the specific way your business works, not adapted from a template.",
+  63: "I am a developer. I document what I build and write code that can be maintained and scaled. Not just something that works until it does not.",
+  64: "I communicate clearly throughout every project. You always know the status, the timeline, and what decisions need to be made.",
+  65: "I give honest answers about what is and is not possible. No overselling, no surprises after the contract is signed.",
 
-  // --- HOOK: Direct/blunt (respect for busy people) ---
-  66: "Dev for hire. Telegram bots and websites. 5 years. Good work, fair price. DM if you need something built.",
-  67: "I build Telegram bots and websites. I'm good at it. If you need one, DM me.",
-  68: "Not going to oversell myself. 5 years, solid portfolio, reasonable rates. Telegram + web. DM if interested.",
-  69: "Telegram bot or website? I build both. DM with your idea and I'll tell you what it takes.",
-  70: "Looking for work. Full-stack dev. Telegram bots, websites, dashboards. DM.",
+  // HOOK: Offer-first
+  66: "I am a developer. I build websites, web apps, e-commerce stores, and automation tools. Clean code, proper documentation, support after delivery.",
+  67: "I am available for new projects. If you want to talk through an idea before committing, I am happy to do that at no cost.",
+  68: "I build and deploy. Websites, web apps, scrapers, automation, mini apps. Five years of experience. Fixed price or hourly depending on the project.",
+  69: "I am a full stack developer. I work on fixed price or hourly arrangements depending on what suits your project.",
+  70: "I am a developer looking for new clients. Fast delivery, clean code, full documentation on handover. Currently open.",
 
-  // --- HOOK: Value/insight drop (shows expertise) ---
-  71: "Most Telegram bots fail because they're built without rate limit handling. Small detail, big problem. I get these things right.",
-  72: "A subscription bot without proper expiry logic will bleed revenue. I've fixed this for multiple clients. Build it right. DM.",
-  73: "Inline keyboards make Telegram bots 3x more engaging than command-based ones. That's how I build by default.",
-  74: "Webhook > polling for production Telegram bots. If your dev set it up wrong, users feel it. I do it right from day one.",
-  75: "The biggest mistake in Telegram channel automation is no fallback for failed broadcasts. I build with error handling built in.",
+  // HOOK: Question-led
+  71: "I am a developer. If you are thinking about building a website or web app but are not sure what it would take, I am happy to talk it through.",
+  72: "I am a full stack developer. If something has been stopping you from building a proper web presence for your business, I have probably solved that problem before.",
+  73: "I am a developer. If a previous project did not go well, I am happy to hear what happened and talk honestly about how to approach it differently.",
+  74: "I build websites and web applications. If you have an idea and are not sure whether it is technically feasible, I will give you a straight answer.",
+  75: "I am a developer. If your team is spending time on manual digital work that should be automated, I am worth talking to.",
 
-  // --- HOOK: Personality/brand (memorable) ---
-  76: "I'm the developer people come back to. Telegram bots, websites, automation. DM.",
-  77: "Clean code. Real communication. On-time delivery. Telegram bots and web dev. That's my reputation. DM.",
-  78: "I treat every project like it's my own business on the line. Telegram automation + full-stack. DM.",
-  79: "Bots that don't break. Sites that load fast. Code I'm not embarrassed by. That's what I deliver. DM.",
-  80: "I don't just build what you ask. I ask what you're trying to achieve. Better results that way. Telegram + web. DM.",
+  // HOOK: Value and insight
+  76: "I am a developer who thinks about page speed as a business concern, not just a technical one. Slow websites lose visitors before they see anything.",
+  77: "I build websites designed to convert visitors, not just to look good. Both matter and I think about both from the start.",
+  78: "I am a developer. I build with error handling, edge cases, and real user behavior in mind. The details that get skipped are usually the ones that cost you later.",
+  79: "I build mobile first by default. Most web traffic is on phones. It should not be an afterthought.",
+  80: "I am a developer. When I take on a project I ask what you are trying to achieve, not just what you want built. The outcome is usually better for it.",
 
-  // --- HYBRID: Short + proof + CTA ---
-  81: "Telegram bot dev — 40+ shipped. DM with your idea.",
-  82: "Course bot, referral bot, AI bot — built them all. Open for work. DM.",
-  83: "I build Telegram bots that work properly. 5 years. DM if you need one.",
-  84: "Web dev + Telegram automation. React, Node, Next. Available. DM.",
-  85: "Delivered 40+ projects. Taking new ones. Bots + websites. DM.",
-  86: "Telegram automation that actually scales. I build it. DM.",
+  // HOOK: Personality
+  81: "I am a full stack developer with five years of experience. I build things that work, communicate clearly, and stay available after delivery.",
+  82: "I am a developer. Clean code, honest communication, and on time delivery are the standard I hold myself to.",
+  83: "I have been building for clients for five years. I take the work seriously because my reputation is attached to everything I ship.",
+  84: "I am a developer. I build websites that load fast, apps that do not break, and code that can be maintained after I hand it over.",
+  85: "I ask what you are trying to achieve before I ask what you want built. I have found it leads to better results for the people I work with.",
+
+  // HYBRID: Short with proof
+  86: "I am a full stack developer with five years of experience. Websites, web apps, e-commerce, school and hotel sites, mini apps, scrapers, and automation. Open for work.",
 };
